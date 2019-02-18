@@ -1,0 +1,37 @@
+@import "../base/settings";
+@import "../base/base";
+
+.resultModal {
+  width: 400px;
+  height: 250px;
+  color: $dark-pink;
+  background-color: white;
+
+  h2 {
+    color: $dark-pink !important;
+    font-weight: 500;
+    text-shadow: none;
+  }
+
+  button {
+    outline: none !important;
+    color: $light-purple;
+    font-weight: 300 !important;
+    font-size: 13px !important;
+    letter-spacing: 3px;
+    background-color: $off-purple;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    // -moz-box-shadow: 0px 6px 18px -7px black;
+    // -webkit-box-shadow: 0px 6px 18px -7px black;
+    // box-shadow: 0px 6px 18px -7px black;
+    transition: background-color 0.2s;
+    padding: 10px;
+  }
+}
+
+.result-percent {
+  font-size: 30px;
+  font-weight: 400;
+}

@@ -1,0 +1,20 @@
+@import "../base/settings";
+@import "../base/base";
+
+.footer {
+  background-color: #11070b;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 17px;
+  height: 100%;
+}
+
+.footer-container {
+  height: 100px;
+}
+
+#footer-img {
+  height: 50px;
+  margin-bottom: 10px;
+}

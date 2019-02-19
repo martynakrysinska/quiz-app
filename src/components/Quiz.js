@@ -40,7 +40,7 @@ export default class Quiz extends React.Component {
         console.log(e);
         const errorMessage = e
           ? "Sorry, there are not enough questions in this category"
-          : "";
+          : null;
         this.setState({
           errorMessage
         });

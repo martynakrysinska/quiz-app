@@ -24,7 +24,8 @@ const escapeHtml = str => {
     .replace(/&shy;/g, "­­- ")
     .replace(/&deg;/g, "°")
     .replace(/&iacute;/g, "í")
-    .replace(/&rsquo;/g, "’");
+    .replace(/&rsquo;/g, "’")
+    .replace(/&uuml;/g, "ü");
 };
 
 export default escapeHtml;
